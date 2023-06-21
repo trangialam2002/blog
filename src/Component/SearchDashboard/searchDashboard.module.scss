@@ -1,0 +1,37 @@
+.input{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #ececec;
+    padding: 0 10px;
+    font-family: Montserrat;
+    font-weight: 450;
+    caret-color: #23BB86;
+    color: #23BB86;
+    font-size: 16px;
+    float: right;
+    margin-right: 20px;
+}
+.searchCategory{
+    position: relative;
+
+    & span{
+        position: absolute;
+        right: 30px;
+    top: 14px;
+    font-size: 12px;
+    cursor: pointer;
+    }
+}
+.rotate{
+    animation:ani 1s forwards linear infinite
+}
+@keyframes ani{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

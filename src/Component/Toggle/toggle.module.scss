@@ -1,0 +1,86 @@
+.featurepost{
+    width: 400px;
+    height: 80px;
+    margin: 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    & span{
+        color: #add77b;
+    font-family: Montserrat;
+    font-size: 13px;
+    }
+
+    & label{
+        color: #3B3E44;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    }
+
+    & input{
+        position: absolute;
+    top: 70%;
+    left: 2%;
+    width: 60px;
+    height: 30px;
+    z-index: 99;
+    opacity: 0;
+    }
+
+    & .parentToggle{
+        position: absolute;
+    top: 70%;
+    left: 2%;
+    width: 60px;
+    height: 30px;
+    background: #cad0d6;
+    border-radius: 30px;
+    
+
+    & .childToggle1{
+        position: absolute;
+    width: 30px;
+    height: 90%;
+    background: #fff;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    }
+    
+    }
+}
+.parentToggle2{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    animation: toggle1 0.5s forwards linear;
+
+    & .childToggle2{
+    position: absolute;
+    width: 30px;
+    height: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #fff;
+    right: 2px;
+}
+}
+@keyframes toggle1{
+    from{
+        background-color: #fff;
+    }
+    to{
+        background-color: #15bf51;
+
+    }
+}
+

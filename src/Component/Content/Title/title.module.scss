@@ -1,0 +1,16 @@
+.title{
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 25px;
+    position: relative;
+
+    &:before{
+        content: "";
+    position: absolute;
+    left: 0;
+    top: -6px;
+    width: 35px;
+    height: 3px;
+    background: #00D1ED;
+    }
+}

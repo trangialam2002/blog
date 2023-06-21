@@ -1,0 +1,35 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    height: 350px;
+    align-items: center;
+    background: linear-gradient(155deg, #00B4AA 6.67%, #A4D96C 84.1%);
+    border-radius: 5px;
+    margin-top: 110px;
+
+    & img{
+        flex-grow: 1;
+    height: 80%;
+    object-fit: contain;
+    }
+}
+.left{
+    width: 44%;
+    flex-shrink: 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: #fff;
+    line-height: 1.7;
+
+    & h3{
+        font-size: 30px;
+    }
+    & span{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,9 @@
+.color {
+    background: #f5f5f5;
+}
+.tintuc {
+    width: 70%;
+    margin: 65px auto;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.addPost{
+
+    & h3{
+        color: #23BB86;
+        font-size: 30px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        margin: 25px 0 0 50px;
+        }
+    & .contentAdd{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto 0;
+    }
+}

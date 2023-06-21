@@ -1,0 +1,64 @@
+.box_right {
+    width: 26%;
+}
+.box_right h3 {
+    text-align: center;
+    height: 65px;
+    background: #fff;
+    margin-top: 50px;
+    position: relative;
+}
+.box_right h3:after{
+    content: "";
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #A4D96C;
+}
+.khoi1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 22px;
+    background: #fff;
+}
+.khoi1 h4 {
+    padding: 22px 0;
+    border-bottom: 3px solid #ececec;
+    margin-bottom: 15px;
+    width: 90%;
+    text-align: center;
+}
+.layout {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 10px;
+}
+.layout img {
+    width: 70px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    margin-top: 5px;
+    height: 55px;
+}
+.layout .noidung1 {
+    width: 170px;
+    height: 90px;
+}
+.noidung1>p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.noidung1 span {
+    font-size: 12px;
+}
+.noidung1 span.fa.fa-clock-o {
+    margin-right: 10px;
+}

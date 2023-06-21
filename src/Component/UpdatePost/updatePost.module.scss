@@ -1,0 +1,33 @@
+.addPost{
+
+    & h3{
+        color: #23BB86;
+        font-size: 30px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        margin: 25px 0 0 50px;
+        }
+    & .contentAdd{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto 0;
+    }
+}
+.customQuill{
+    width: 400px;
+    margin: 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+
+    &>label{
+        color: #3B3E44;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    }
+}

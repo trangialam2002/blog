@@ -1,0 +1,19 @@
+.quill{
+    height: 160px;    
+}
+.ql-toolbar.ql-snow{
+    border: 2px solid #E7ECF3!important;
+}
+.ql-container.ql-snow {
+    border: 2px solid #E7ECF3!important;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.005em;
+}
+.ql-editor{
+    line-height: 32px;
+    color: #232323;
+    text-align: justify;
+}

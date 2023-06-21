@@ -1,0 +1,39 @@
+.active{
+    color:#A4D96C !important;
+}
+.active1{
+    color: #00B4AA !important;
+}
+.head{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    border-radius: 5px;
+    z-index: 999;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-left: 10px;
+
+    & a {
+        text-decoration: none;
+        color: #000000;
+        font-family: Poppins;
+        font-size: 18px;
+
+        & img{
+            width: 35px;
+            height: 45px;
+            object-fit: cover;
+        }
+    }
+}
